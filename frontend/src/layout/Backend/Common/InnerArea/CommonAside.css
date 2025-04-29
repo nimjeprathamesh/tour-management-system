@@ -1,0 +1,12 @@
+.Light {
+	background: #1a202c !important;
+	color: #f9f9f9;
+}
+.Dark {
+	background: #f9f9f9 !important;
+	color: #f9f9f9;
+}
+.activeNavItem {
+    background-color: #38B2AC;
+    color: white;
+}

@@ -1,0 +1,205 @@
+#homePageNewsletter{
+	position: relative;
+	overflow: hidden;
+}
+#homePageNewsletter .newsletter-area{
+	position: relative;
+	overflow: hidden;
+	-webkit-animation: fadeInUp 1s forwards;
+	animation: fadeInUp 1s both;
+	animation-delay: 0s;
+	visibility: visible;
+}
+@keyframes fadeInUp {
+	0% {
+	    opacity: 0;
+	    transform: translateY(100%);
+	}
+	
+	100% {
+	    opacity: 1;
+	    transform: translateY(0);
+	}
+}
+#homePageNewsletter .heading{
+	-webkit-animation: fadeInRigh 1s forwards;
+	animation: fadeInRight 1s both;
+	animation-delay: 0s;
+	visibility: visible;
+}
+@keyframes fadeInRight {
+	0% {
+	    opacity: 0;
+	    transform: translateX(100%);
+	}
+	
+	100% {
+	    opacity: 1;
+	    transform: translateX(0);
+	}
+}
+#homePageNewsletter .newsletter-area h1{
+	font-size: 56px;
+	font-weight: 100;
+	margin: 5rem 14rem;
+	text-align: center;
+}
+@media only screen and (min-width: 2560px) {
+	#homePageNewsletter .newsletter-area h1{
+		margin: 5rem 52rem;
+	}
+}
+@media only screen and (min-width: 1440px) and (max-width: 2559px) {
+	#homePageNewsletter .newsletter-area h1{
+		margin: 5rem 17rem;
+	}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+	#homePageNewsletter .newsletter-area h1{
+		margin: 5rem 14rem;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	#homePageNewsletter .newsletter-area h1{
+		margin: 5rem 3rem;
+	}
+}
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+	#homePageNewsletter .newsletter-area h1{
+		font-size: 52px;
+		margin: 5rem 0;
+	}
+}
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+	#homePageNewsletter .newsletter-area h1{
+		font-size: 49px;
+		margin: 5rem 0;
+	}
+}
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+	#homePageNewsletter .newsletter-area h1{
+		font-size: 35px;
+        margin: 5rem 4rem;
+	}
+}
+#homePageNewsletter .subscribe{
+	text-align: center;
+	padding-bottom: 8%;
+}
+#homePageNewsletter input[type=email] {
+	outline: none;
+	width: 100%;
+    font-size: 20px;
+    padding: 5%;
+    box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.2), 0 0px 18px 0 rgba(0, 0, 0, 0.19);
+}
+@media only screen and (min-width: 2560px) {
+	#homePageNewsletter input[type=email] {
+		width: 40%;
+		padding: 2%;
+	}
+}
+@media only screen and (min-width: 1440px) and (max-width: 2559px) {
+	#homePageNewsletter input[type=email] {
+		padding: 4.4%;
+	}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+	#homePageNewsletter .form_content {
+		padding: 0 10rem;
+	}
+	#homePageNewsletter input[type=email] {
+		padding: 3.8%;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	#homePageNewsletter .form_content {
+		padding: 0 3rem;
+	}
+	#homePageNewsletter input[type=email] {
+		padding: 6.4%;
+	}
+}
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+	#homePageNewsletter .form_content {
+		display: block;
+		padding: 0 3rem;
+	}
+	#homePageNewsletter input[type=email] {
+		padding: 9%;
+	}
+}
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+	#homePageNewsletter .form_content {
+		display: block;
+		padding: 0 3rem;
+	}
+	#homePageNewsletter input[type=email] {
+		padding: 9%;
+	}
+}
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+	#homePageNewsletter .form_content {
+		display: block;
+		padding: 0 3rem;
+	}
+	#homePageNewsletter input[type=email] {
+		padding: 10%;
+	}
+}
+#homePageNewsletter .subscribeButton {
+	background-color:#f41844;
+	border: none;
+	color: white;
+	padding: 2rem 1rem;
+    font-size: 20px;
+	font-weight: 600;
+	box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.2), 0 0px 18px 0 rgba(0, 0, 0, 0.19);
+	cursor: pointer;
+}
+@media only screen and (min-width: 2560px) {
+	#homePageNewsletter .subscribeButton {
+		position: relative;
+		right: 34rem;
+		padding: 2.3rem 1.5rem;
+	}
+}
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+	#homePageNewsletter .subscribeButton {
+		margin-top: 2rem;
+		padding: 1.5rem 1rem;
+	}
+}
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+	#homePageNewsletter .subscribeButton {
+		margin-top: 2rem;
+		padding: 1.5rem 1rem;
+	}
+}
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+	#homePageNewsletter .subscribeButton {
+		margin-top: 2rem;
+		padding: 1.4rem 1rem;
+	}
+}
+#homePageNewsletter .subscribeButtonLight:hover {
+	background-color: #000;
+	color:#f41844;
+	font-weight: 600;
+}
+#homePageNewsletter .subscribeButtonDark:hover {
+	background-color: #fff;
+	color:#f41844;
+	font-weight: 600;
+}
+#homePageNewsletter .subscribeButton:active {
+	transform: translateY(4px);
+}
+#homePageNewsletter .successMsg {
+	font-family: 'slick';
+    color: green;
+    font-size: 16px;
+    font-weight: 900;
+    text-align: left;
+    margin-left: 10%;
+}

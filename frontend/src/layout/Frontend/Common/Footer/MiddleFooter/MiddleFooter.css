@@ -1,0 +1,237 @@
+#footer .middlefooter {
+    background-color: #212121;
+    padding: 5%;
+}
+@media only screen and (min-width: 2560px) {
+	#footer .middlefooter{
+		padding: 5% 25%;
+	}
+}
+#footer .middlefooter-area {
+    width: 100%;
+    animation: bounceInUp 1s both;
+    visibility: visible;
+}
+
+@keyframes bounceInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    20% {
+        transform: translateY(-20px);
+    }
+    40% {
+        transform: translateY(10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+    80% {
+        transform: translateY(2px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#footer .middlefooter-logo {
+    margin: 0.2rem 0 0 1rem;
+    max-width: 150px; /* Limit logo size */
+}
+
+#footer .middlefooter-area p {
+    font-size: 14px;
+    text-align: left;
+    line-height: 1.5;
+    margin-top: 1rem;
+    padding: 0 5%;
+}
+
+#footer .active_package {
+    color: #f41844;
+    background-color: #1c1c1c;
+    width: 100%;
+    display: block;
+    box-shadow: 0 0px 5px 0 #fff, 0 0px 18px 0 rgba(0, 0, 0, 0.19);
+}
+
+#footer .heading {
+    font-weight: 600;
+    font-size: 1.75rem; /* 28px */
+    margin-left: 5%;
+    color: #fff;
+}
+
+#footer .heading .hr {
+    width: 20%;
+    height: 5px;
+    background-color: #323232;
+    border: none;
+    border-radius: 20px;
+    transition: 0.9s ease;
+    opacity: 1;
+}
+
+#footer .middlefooter-area:hover .heading .hr {
+    width: 100%;
+    background-color: #f41844;
+}
+
+#footer ul.unorder {
+    list-style-type: none;
+    font-size: 1rem; /* 16px */
+    line-height: 2;
+    font-weight: 500;
+}
+
+#footer ul.scroll {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 204px; /* Use max-height for flexibility */
+}
+
+#footer ul.scroll::-webkit-scrollbar {
+    width: 5px;
+}
+
+#footer ul.scroll::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+#footer ul.scroll::-webkit-scrollbar-thumb {
+    background: #000;
+    border-radius: 10px;
+}
+
+#footer ul.scroll::-webkit-scrollbar-thumb:hover {
+    background: #161616;
+}
+
+#footer li a {
+    padding: 0 5%;
+    display: block;
+}
+
+#footer li a::before {
+    content: '\003E';
+    margin-right: 0.5rem;
+}
+
+#footer li a:hover {
+    color: #f41844;
+}
+
+#footer li .activeLinks {
+    color: #f41844;
+    width: 100%;
+    border-radius: 6px;
+    display: block;
+    margin: 1% 0 1% -1%;
+    box-shadow: 0 0px 5px 0 #fff, 0 0px 18px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Mobile (max-width: 767px) */
+@media only screen and (max-width: 768px) {
+    #footer .middlefooter {
+        padding: 8% 5%;
+    }
+
+	#footer .middlefooter-content {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+    #footer .middlefooter-area {
+        width: 100%;
+        margin-bottom: 2rem; /* Space between stacked sections */
+    }
+
+    #footer .middlefooter-logo {
+        max-width: 120px; /* Smaller logo on mobile */
+    }
+
+    #footer .middlefooter-area p {
+        font-size: 0.875rem; /* 14px */
+        margin-top: 0.5rem;
+    }
+
+    #footer .heading {
+        font-size: 1.5rem; /* 24px */
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #footer .heading .hr {
+        margin: 0 auto;
+    }
+
+    #footer ul.unorder {
+        font-size: 1rem;
+    }
+
+    #footer ul.scroll {
+        max-height: 150px; /* Smaller scroll area on mobile */
+    }
+
+    #footer li a {
+        padding: 0.5rem 2rem;
+    }
+
+    #footer li .activeLinks {
+        margin: 0.5rem 0;
+    }
+}
+
+/* Tablet (min-width: 768px and max-width: 1023px) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    #footer .middlefooter-area {
+        width: 48%; /* Two columns */
+        margin-bottom: 1.5rem;
+    }
+
+    #footer .middlefooter-logo {
+        max-width: 130px;
+    }
+
+    #footer .middlefooter-area p {
+        font-size: 0.875rem;
+    }
+
+    #footer .heading {
+        font-size: 1.5rem;
+    }
+
+    #footer ul.unorder {
+        font-size: 1rem;
+    }
+
+    #footer ul.scroll {
+        max-height: 180px;
+    }
+}
+
+/* Desktop (min-width: 1024px) */
+@media only screen and (min-width: 1024px) {
+    #footer .middlefooter-area {
+        width: 23%; /* Four columns */
+    }
+
+    #footer .middlefooter-logo {
+        max-width: 150px;
+    }
+
+    #footer .middlefooter-area p {
+        font-size: 0.875rem;
+    }
+
+    #footer .heading {
+        font-size: 1.75rem;
+    }
+
+    #footer ul.unorder {
+        font-size: 1.2rem;
+    }
+}

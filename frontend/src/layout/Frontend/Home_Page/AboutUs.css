@@ -1,0 +1,482 @@
+#homePageAboutUs{
+	position: relative;
+	overflow: hidden;
+}
+#homePageAboutUs .about-area{
+	background-color: #f5f5f5;
+	box-shadow: 0 0 5px #0003, 0 0 18px #00000030;
+    margin: 0.5rem 0;
+}
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+	#homePageAboutUs .about-container {
+		display: block;
+	}
+}
+#homePageAboutUs .about-content{
+	padding-top: 4rem;
+	-webkit-animation: bounceInRight 1s forwards;
+	animation: bounceInRight 1s both;
+    animation-delay: 0s;
+	visibility: visible;
+}
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+	#homePageAboutUs .about-content {
+		max-width: none;
+	}
+}
+@keyframes bounceInRight {
+	0% {
+		opacity: 0;
+		transform: translateX(200px);
+	}
+	20% {
+		transform: translateX(-20px);
+	}
+	40% {
+		transform: translateX(10px);
+	}
+	60% {
+		transform: translateX(-5px);
+	}
+	80% {
+		transform: translateX(2px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+#homePageAboutUs .about-content h6{
+	color: #a0a0a0;
+	text-align: left;
+	padding-left: 20%;
+	font-size: 1rem;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	#homePageAboutUs .about-content h6 {
+		padding-left: 5%;
+	}
+}
+@media screen and (max-width: 767px) {
+	#homePageAboutUs .about-content h6 {
+		padding-left: 10%;
+	}
+}
+#homePageAboutUs .about-content h1{
+	font-weight: 700;
+	text-align: left;
+	padding: 2% 5% 0 20%;
+	font-size: 2.5rem;
+	color: #000;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	#homePageAboutUs .about-content h1 {
+		padding: 2% 5% 0 5%;
+		font-size: 2rem;
+	}
+}
+@media screen and (max-width: 767px) {
+	#homePageAboutUs .about-content h1 {
+		padding: 2% 5% 0 10%;
+		font-size: 2rem;
+	}
+}
+#homePageAboutUs .about-content h5{
+	font-weight: 700;
+	color: #f41844;
+	padding: 3% 0 0 20%;
+	letter-spacing: 2.5px;
+	font-size: 1.25rem;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	#homePageAboutUs .about-content h5 {
+		padding: 3% 0 0 5%;
+	}
+}
+@media screen and (max-width: 767px) {
+	#homePageAboutUs .about-content h5 {
+		padding: 3% 0 0 10%;
+		font-size: 1rem;
+	}
+}
+#homePageAboutUs .about-image-overlay{
+	position: relative;
+}
+#homePageAboutUs .over_img {
+	width: 40%;
+    height: 15.2em;
+    display: block;
+    margin: 6% 0 10% 20%;
+    float: left;
+}
+@media only screen and (min-width: 2560px) {
+	#homePageAboutUs .over_img {
+		width: 45%;
+		margin: 2% 0 2% 20%;
+		height: auto;
+	}
+}
+@media only screen and (min-width: 1440px) and (max-width: 2559px) {
+	#homePageAboutUs .over_img {
+		width: 46%;
+		height: auto;
+		margin: 2% 0 2% 20%;
+	}
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+	#homePageAboutUs .over_img {
+		width: 46%;
+		height: auto;
+		margin: 6% 0 2% 20%;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	#homePageAboutUs .over_img {
+		width: 90%;
+		height: 30rem;
+		margin: 6% 0 10% 5%;
+	}
+}
+@media screen and (min-width: 375px) and (max-width: 767px) {
+	#homePageAboutUs .over_img {
+		width: 80%;
+		height: 17rem;
+		margin: 6% 0 10% 10%;
+	}
+}
+@media screen and (max-width: 374px) {
+	#homePageAboutUs .over_img {
+		width: 80%;
+		height: 13rem;
+		margin: 6% 0 10% 10%;
+	}
+}
+#homePageAboutUs .about-overlay {
+	position: absolute;
+    left: 20%;
+    top: 3em;
+    background-color: #f41844;
+    overflow: hidden;
+    width: 40%;
+    height: 15.2em;
+	-webkit-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+	-webkit-transition: .3s ease;
+	transition: .9s ease;
+	opacity: 0.4;
+}
+@media only screen and (min-width: 2560px) {
+	#homePageAboutUs .about-overlay {
+		width: 45%;
+		height: auto;
+	}
+}
+@media only screen and (min-width: 1024px) and (max-width: 2559px) {
+	#homePageAboutUs .about-overlay {
+		width: 46%;
+		height: auto;
+	}
+}
+/* @media screen and (min-width: 768px) and (max-width: 1023px) {
+	#homePageAboutUs .over_img {
+		width: 90%;
+		height: 30rem;
+	}
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+	#homePageAboutUs .over_img {
+		width: 90%;
+		height: 30rem;
+	}
+} */
+#homePageAboutUs .about-image-overlay:hover .about-overlay {
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+#homePageAboutUs .about-image{
+	position: absolute;
+    right: 21%;
+    top: 3em;
+}
+@media only screen and (min-width: 2560px) {
+	#homePageAboutUs .about-image{
+		right: 28.5%;
+	}
+}
+@media only screen and (min-width: 1440px) and (max-width: 2559px) {
+	#homePageAboutUs .about-image{
+		right: 22%;
+	}
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+	#homePageAboutUs .about-image{
+		right: 18%;
+		top: 2rem;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	#homePageAboutUs .about-image {
+		position: relative;
+		left: 10%;
+		top: -3.5rem;
+	}
+}
+@media screen and (min-width: 375px) and (max-width: 767px) {
+	#homePageAboutUs .about-image {
+		position: relative;
+		left: 15%;
+		top: -1.5rem;
+	}
+}
+@media screen and (max-width: 374px) {
+	#homePageAboutUs .about-image {
+		position: relative;
+		left: 15%;
+		top: -1rem;
+	}
+}
+#homePageAboutUs .about-image-overlay:hover .about-image {
+	transform: rotate(45deg);
+}
+#homePageAboutUs .about-sub-area{
+	background-color: #212121;
+    width: 30%;
+    height: auto;
+    float: left;
+    position: relative;
+    left: 10%;
+    top: 9em;
+	padding: 2% 3% 3% 3%;
+}
+@media only screen and (min-width: 2560px) {
+	#homePageAboutUs .about-sub-area {
+		width: 33%;
+		left: 2%;
+	}
+}
+@media only screen and (min-width: 1440px) and (max-width: 2559px) {
+	#homePageAboutUs .about-sub-area {
+		width: 31%;
+		left: 4%;
+	}
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+	#homePageAboutUs .about-sub-area {
+		width: 30%;
+		left: 5%;
+		top: 7rem;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	#homePageAboutUs .about-sub-area {
+		width: 85%;
+		left: 10%;
+		top: -2.5rem;
+	}
+}
+@media screen and (min-width: 375px) and (max-width: 767px) {
+	#homePageAboutUs .about-sub-area {
+		width: 75%;
+        left: 15%;
+        top: -0.3rem;
+	}
+}
+@media screen and (max-width: 374px) {
+	#homePageAboutUs .about-sub-area {
+		width: 75%;
+		left: 15%;
+		top: -0rem;
+	}
+}
+#homePageAboutUs .about-sub-area h4{
+	color: #fff;
+	text-align: left;
+	font-size: 15px;
+}
+#homePageAboutUs .about-sub-area span{
+	font-size: 30px;
+	color: #f41844;
+}
+#homePageAboutUs .about-btn{
+	font-size: 22px;
+	font-weight: 800;
+	color: #f41844;
+	cursor: pointer;
+	transition: .9s ease;
+}
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+	#homePageAboutUs .about-btn {
+		text-align: center;
+	}
+}
+#homePageAboutUs .about-btn:hover{
+	transform: translateY(4px);
+}
+#homePageAboutUs .about-btn a{
+	text-decoration: none;
+	color: #f41844;
+}
+#homePageAboutUs .about-btn a:hover{
+	color: #fff;
+}
+#homePageAboutUs .about-btn span{
+	color: #7d7d7d;
+	display: inline;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: 700;
+}
+#homePageAboutUs .about-btn span:hover{
+	color: #f41844;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	#homePageAboutUs .contact-container {
+		min-width: auto;
+		max-width: none;
+		margin-top: 17%;
+	}
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+	#homePageAboutUs .contact-container {
+		min-width: auto;
+		max-width: none;
+		margin-top: 30%;
+	}
+}
+@media screen and (max-width: 424px) {
+	#homePageAboutUs .contact-container {
+		min-width: auto;
+		max-width: none;
+		margin-top: 40%;
+	}
+}
+#homePageAboutUs .contact-area{
+	background-color: #212121;
+	color: white;
+	width: 100%;
+	padding-bottom: 7rem;
+	-webkit-animation: bounceInLeft 1s forwards;
+	animation: bounceInLeft 1s forwards;
+    animation-delay: 0s;
+	visibility: visible;
+}
+@media only screen and (min-width: 2560px) {
+	#homePageAboutUs .contact-area {
+		padding-bottom: 30%;
+	}
+}
+@media only screen and (min-width: 1440px) and (max-width: 2559px) {
+	#homePageAboutUs .contact-area {
+		padding-bottom: 31%;
+	}
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+	#homePageAboutUs .contact-area {
+		padding-bottom: 35%;
+	}
+}
+@media screen and (max-width: 767px) {
+	#homePageAboutUs .contact-area {
+		padding-bottom: 10%;
+	}
+}
+@keyframes bounceInLeft {
+	0% {
+	    opacity: 0;
+	    transform: translateX(-200px);
+	}
+	60% {
+	    opacity: 1;
+	    transform: translateX(30px);
+	}
+	80% {
+	    transform: translateX(-10px);
+	}
+	100% {
+	    transform: translateX(0);
+	}
+}
+#homePageAboutUs .contact-area h1{
+	font-size: 40px;
+	text-align: left;
+	padding: 8% 0 0 10%;
+	font-weight: normal;
+}
+@media only screen and (min-width: 2560px) {
+	#homePageAboutUs .contact-area h1 {
+		padding: 4% 0 0 10%;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	#homePageAboutUs .contact-area h1 {
+		padding: 3% 0 0 10%;
+	}
+}
+@media screen and (max-width: 767px) {
+	#homePageAboutUs .contact-area h1 {
+		padding: 3% 0 0 5%;
+	}
+}
+#homePageAboutUs .contact-area form{
+	padding: 10% 13%;
+}
+@media only screen and (min-width: 2560px) {
+	#homePageAboutUs .contact-area form{
+		padding: 3% 10%;
+	}
+}
+@media only screen and (min-width: 1440px) and (max-width: 2559px) {
+	#homePageAboutUs .contact-area form{
+		padding: 3% 10%;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	#homePageAboutUs .contact-area form {
+		padding: 3% 10%;
+	}
+}
+@media screen and (max-width: 767px) {
+	#homePageAboutUs .contact-area form {
+		padding: 0 5%;
+	}
+}
+#homePageAboutUs span{
+	font-weight: 700;
+	display: inline;
+}
+#homePageAboutUs .contact-area form input, .contact-area form Textarea{
+	background-color: #2E2E2E;
+	color: #707D84;
+	border: "none";
+	border-width: 0;
+	border-radius: 0;
+	margin: 1% 0;
+}
+#homePageAboutUs textarea[type=text] {
+	margin: 2% 0;
+	padding: 3%;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif, FontAwesome;
+	width: 100%;
+	box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.2), 0 0px 18px 0 rgba(0, 0, 0, 0.19);
+}
+#homePageAboutUs .submitButton {
+	background-color: #f41844;
+	color: #fff;
+	box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.2), 0 0px 18px 0 rgba(0, 0, 0, 0.19);
+}
+#homePageAboutUs .submitButton:hover {
+	background-color: #fff;
+	color:#000;
+}
+#homePageAboutUs .submitButton:active {
+	transform: translateY(4px);
+}
+#homePageAboutUs .successMsg {
+	font-family: 'slick';
+	color: green;
+	font-size: 13px;
+	font-weight: 900;
+}

@@ -1,0 +1,134 @@
+#footer{
+	position: absolute;
+	overflow: hidden;
+	color: #606060;
+}
+#footer .upperfooter{
+	padding: 3%;
+	background-color: #2A2A2A;
+}
+@media only screen and (min-width: 2560px) {
+	#footer .upperfooter{
+		padding: 3% 25%;
+	}
+}
+@media screen and (max-width: 768px) {
+	#footer .upperfooter-content {
+		display: block;
+		text-align: center;
+	}
+	#footer .contact {
+		display: block;
+	}
+}
+#footer .phone{
+	font-size: 15px;
+	margin-top: 4%;
+	text-align: center;
+	font-weight: 500;
+	-webkit-animation: fadeInRight 1s forwards;
+	animation: fadeInRight 1s both;
+	animation-delay: 0s;
+	visibility: visible;
+}
+@keyframes fadeInRight {
+	0% {
+	    opacity: 0;
+	    transform: translateX(100%);
+	}
+	
+	100% {
+	    opacity: 1;
+	    transform: translateX(0);
+	}
+}
+#footer #call{
+	color: white;
+	transform: rotate(270deg);
+    position: relative;
+    bottom: 0.2rem;
+    right: 0.4rem;
+}
+#footer .mail{
+	font-size: 15px;
+	cursor: pointer;
+	margin: 1.3rem 0 0 2rem;
+	text-align: center;
+	font-weight: 500;
+	-webkit-animation: fadeInRight 1s forwards;
+	animation: fadeInRight 1s both;
+	animation-delay: 0s;
+	visibility: visible;
+}
+@media screen and (max-width: 768px) {
+	#footer .mail {
+		margin: 0;
+	}
+}
+@keyframes fadeInRight {
+	0% {
+	    opacity: 0;
+	    transform: translateX(100%);
+	}
+	
+	100% {
+	    opacity: 1;
+	    transform: translateX(0);
+	}
+}
+#footer .mail a{
+	text-decoration: none;
+}
+#footer .mail a:hover{
+	color: #f41844;
+}
+#footer #email{
+	margin-right: 3%;
+	color: white;
+}
+#footer .connect{
+	font-size: 40px;
+	-webkit-animation: fadeInRight 1s forwards;
+	animation: fadeInRight 1s both;
+	animation-delay: 0s;
+	visibility: visible;
+}
+@media screen and (max-width: 768px)  {
+	#footer .connect {
+		margin-top: 1%;
+	}
+}
+@keyframes fadeInRight {
+	0% {
+	    opacity: 0;
+	    transform: translateX(100%);
+	}
+	
+	100% {
+	    opacity: 1;
+	    transform: translateX(0);
+	}
+}
+#footer .connect a{
+	text-decoration: none;
+}
+#footer .connect i{
+    font-size: 25px;
+	padding: 0.5rem 0.8rem;
+    margin-left: 1rem;
+    border-radius: 40px;
+	background-color: #363636;
+	transition-duration: 1s;
+	transition: transform .9s;
+}
+#footer .connect #socialMedia {
+	position: relative;
+    bottom: 0.2rem;
+}
+#footer .connect i:hover{
+	color: #fff;
+	background-color: #f41844;
+	-ms-transform: scale(1.3); /* IE 9 */
+	-webkit-transform: scale(1.3); /* Safari 3-8 */
+	transform: scale(1.3);
+}

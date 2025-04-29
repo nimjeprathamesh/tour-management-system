@@ -1,0 +1,142 @@
+#destination_content {
+	position: relative;
+    overflow: hidden;
+    left: 0;
+    margin: 0 0.5rem
+}
+#destination_content h1 {
+	text-align: center;
+	-webkit-animation: zoomIn 1s forwards;
+	animation: zoomIn 1s forwards;
+    animation-delay: 0s;
+	visibility: visible;
+}
+@keyframes zoomIn {
+	from {
+        transform: scale(0);
+	}
+	
+	to {
+        transform: scale(1);
+	}
+}
+/* #destination_content a{
+	display: flex;
+    justify-content: lex-end;
+} */
+#destination_content .addBtn{
+	display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+#destination_content .button{
+    display: flex;
+    justify-self: flex-end;
+    margin: 0 15px 10px 0;
+	border-radius: 8px;
+	background-color: #f41844;
+}
+#destination_content .button:hover {
+	cursor: pointer;
+	animation: halftone 1s forwards;
+	background: radial-gradient(circle, #0d6efd 0.2em, transparent 0.25em) 0 0/1.25em 1.25em,
+	radial-gradient(circle, #0d6efd 0.2em, transparent 0.25em) 6.25em 6.25em/1.25em 1.25em;
+}
+@-webkit-keyframes halftone {
+	100% {
+		background-size: 2.375em 2.375em, 0.1em 0.1em;
+	}
+}
+@keyframes halftone {
+	100% {
+		background-size: 2.375em 2.375em, 0.1em 0.1em;
+	}
+}
+#destination_content .button:active{
+    transform: translateY(4px);
+}
+#destination_content .destination-card{
+    box-shadow: 0 0 5px #0003, 0 0 18px #00000030;
+	-webkit-animation: zoomIn 1s forwards;
+	animation: zoomIn 1s forwards;
+    animation-delay: 0s;
+	visibility: visible;
+    max-height: 200;
+    overflow: visible;
+}
+@keyframes zoomIn {
+	from {
+        transform: scale(0);
+	}
+	
+	to {
+        transform: scale(1);
+	}
+}
+#destination_content .desti-img-overlay{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 6px;
+}
+#destination_content .destination-card:hover .desti-img-overlay img {
+    transform: scale(1.1);
+}
+#destination_content .desti-overlay{
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    background-color: #f41844;
+	overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .9s ease;
+    opacity: 0.4;
+    border-radius: 5px;
+}
+#destination_content .destination-card:hover .desti-overlay {
+    bottom: 0;
+    height: 100%;
+	transform: scale(1.1);
+    border-radius: 5px;
+}
+#destination_content .destination-content {
+    padding: 5px 15px;
+}
+#destination_content .destination h5{
+    margin: 10px 0 10px 0;
+}
+#destination_content .destination_details{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#destination_content .actionBtn {
+    display: flex;
+    justify-content: center;
+}
+#destination_content .readMoreBtn {
+    display: flex;
+    justify-content: center;
+    margin: 0 0.2rem;
+}
+#destination_content .destination_details{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#destination_content .cardfooter {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2rem 1rem 2rem;
+    gap: 10px;
+}
+#destination_content .btn-grp {
+    justify-content: center;
+}

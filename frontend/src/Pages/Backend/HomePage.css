@@ -1,0 +1,65 @@
+#homePage .table_container {
+    display: flex;
+    justify-content: center;
+}
+#homePage .cITable {
+    border-collapse: collapse;
+    width: 100%;
+}
+#homePage .tableTitle{
+    font-size: 20px;
+    padding: 20px !important;
+}
+#homePage .cITable th, .cITable td {
+    border: 1px solid #000;
+    text-align: left;
+    padding: 8px;
+}
+#homePage .cITable th {
+    text-align: center;
+}
+#homePage button{
+	text-align: center;
+    background-color: red;
+    color: #fff;
+    font-size: 15px;
+    display: block;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+	border: none;
+    font-family: Arial, Helvetica, sans-serif, FontAwesome;
+}
+#homePage .buttonLight:hover{
+	background-color: #fff;
+	color: red;
+}
+#homePage .buttonDark:hover{
+	background-color: #000;
+	color: red;
+}
+#homePage button:active{
+	transform: translateY(4px);
+}
+#homePage .tabBtn {
+    background-color: #995400;
+    opacity: 0.5;
+}
+#homePage .homeTable {
+    justify-content: center;
+    display: flex;
+}
+#homePage .activeBtn {
+    background-color: #ff981a;
+    opacity: 1;
+}
+#homePage .actionSec{
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+}
+#homePage .center {
+    text-align: center;
+}

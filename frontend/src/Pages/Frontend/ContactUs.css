@@ -1,0 +1,389 @@
+#contactUsHeader{
+    position: relative;
+    overflow: visible;
+    background-image: url('https://www.luzukdemo.com/demo/inside-tours/wp-content/uploads/sites/35/2021/12/Contact..........jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 22%;
+}
+@media only screen and (min-width: 2560px) {
+	#contactUsHeader{
+		padding-bottom: 11%;
+	}
+}
+@media only screen and (min-width: 1024px) and (max-width: 2559px) {
+	#contactUsHeader{
+		padding-bottom: 20%;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	#contactUsHeader{
+		padding-bottom: 30%;
+	}
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+	#contactUsHeader{
+		padding-bottom: 41%;
+	}
+}
+@media screen and (min-width: 375px) and (max-width: 424px) {
+	#contactUsHeader{
+		padding-bottom: 45%;
+	}
+}
+@media screen and (max-width: 374px) {
+	#contactUsHeader{
+		padding-bottom: 50%;
+	}
+}
+#contactUsHeader .bottom-header{
+	position: absolute;
+	overflow: visible;
+	background: transparent;
+	width: 100%;
+}
+#contactUsHeader .bottom-header h1{
+	color: #000;
+	margin-top: 8.5%;
+	text-align: center;
+	text-shadow: 0em 0em 0.4em rgba(255,255,255,0.6);
+	-webkit-animation: zoomIn 1s forwards;
+	animation: zoomIn 1s forwards;
+    animation-delay: 0s;
+	visibility: visible;
+}
+@media only screen and (min-width: 2560px) {
+	#contactUsHeader .bottom-header h1{
+		margin-top: 4%;
+	}
+}
+@media only screen and (min-width: 1024px) and (max-width: 2559px) {
+	#contactUsHeader .bottom-header h1{
+		margin-top: 7%;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	#contactUsHeader .bottom-header h1{
+		margin-top: 8%;
+	}
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+	#contactUsHeader .bottom-header h1{
+		margin-top: 8%;
+	}
+}
+@media screen and (min-width: 375px) and (max-width: 424px) {
+	#contactUsHeader .bottom-header h1{
+		margin-top: 8%;
+	}
+}
+@media screen and (max-width: 374px) {
+	#contactUsHeader .bottom-header h1{
+		margin-top: 8%;
+	}
+}
+@keyframes zoomIn {
+	from {
+	    transform: scale(0);
+	}
+	to {
+	    transform: scale(1);
+	}
+}
+#bottom-header .active_contact_us {
+	color: #f41844;
+    border: 2px solid;
+    border-radius: 5px;
+}
+#contact_page{
+	position: relative;
+	overflow: visible;
+	padding: 0 3% 0 4%;
+}
+#contact_page .inner-area{
+    border-top-right-radius: 10px;
+    position: relative;
+    top: -4em;
+}
+@media only screen and (min-width: 2560px) {
+	#contact_page{
+		padding: 0 25% 5% 25%;
+	}
+}
+@media only screen and (min-width: 1440px) and (max-width: 2559px) {
+	#contact_page{
+		padding: 0 5% 5% 5%;
+	}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+	#contact_page{
+		padding: 0 5% 5% 5%;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	#contact_page{
+		padding: 0 5% 5% 5%;
+	}
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+	#contact_page{
+		padding: 0 5% 5% 5%;
+	}
+}
+@media screen and (min-width: 375px) and (max-width: 424px) {
+	#contact_page{
+		padding: 0 5% 5% 5%;
+	}
+}
+@media screen and (max-width: 374px) {
+	#contact_page{
+		padding: 0 5% 5% 5%;
+	}
+}
+#contact_page .contact-area{
+    background-color: #131313;
+	padding: 10% 12% 30% 10%;
+    margin-left: -12px;
+	box-shadow: 0 0 5px #0003, 0 0 18px #00000030;
+    border-radius: 0 0px 108px 0;
+	-webkit-animation: zoomIn 1s forwards;
+	animation: zoomIn 1s forwards;
+    animation-delay: 0s;
+	visibility: visible;
+}
+@keyframes zoomIn {
+	from {
+	    transform: scale(0);
+	}
+	
+	to {
+	    transform: scale(1);
+	}
+}
+#contact_page .contact-area h1{
+	text-align: left;
+    font-weight: 800;
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 3rem;
+	-webkit-animation: bounceInUp 1s forwards;
+	animation: bounceInLeft 1s both;
+    animation-delay: 0s;
+}
+@keyframes bounceInLeft {
+	0% {
+	    opacity: 0;
+	    transform: translateX(-100%);
+	}
+	
+	60% {
+	    opacity: 1;
+	    transform: translateX(25px);
+	}
+	
+	75% {
+	    transform: translateX(-10px);
+	}
+	
+	90% {
+	    transform: translateX(5px);
+	}
+	
+	100% {
+	    transform: translateX(0);
+	}
+}
+#contact_page form{
+	-webkit-animation: zoomIn 1s forwards;
+	animation: zoomIn 1s forwards;
+    animation-delay: 0s;
+	visibility: visible;
+}
+@keyframes zoomIn {
+	from {
+	    transform: scale(0);
+	}
+	
+	to {
+	    transform: scale(1);
+	}
+}
+#contact_page .input{
+	outline: none;
+    border: none;
+	border-radius: 0;
+    border-bottom: 1px solid #fff;
+    font-family: Arial, Helvetica, sans-serif, FontAwesome;
+}
+#contact_page .input::placeholder, .textarea::placeholder{
+    color: #fff;
+}
+#contact_page .textarea{
+    border: none;
+	border-radius: 0;
+    border-bottom: 1px solid #fff;
+    font-family: Arial, Helvetica, sans-serif, FontAwesome;
+}
+#contact_page .submitButton{
+    float: right;
+    border: none;
+    border-radius: 6px;
+    margin-top: 3%;
+    padding: 1% 2%;
+    color: #fff;
+    background-color: #f41844;
+    font-family: Arial, Helvetica, sans-serif, FontAwesome;
+}
+#contact_page .submitButton:hover{
+    color: #f41844;
+    background-color: #fff;
+}
+#contact_page .submitButton:active{
+	transform: translateY(4px);
+}
+#contact_page .contact-info{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,#ff1944 0%,#ee4867 100.3% );
+	padding: 4% 4% 15% 10%;;
+    border-radius: 30px 0 0 0;
+	margin: 43% -2% 0px 5%;
+	-webkit-animation: zoomIn 1s forwards;
+	animation: zoomIn 1s forwards;
+    animation-delay: 0s;
+	visibility: visible;
+}
+@keyframes zoomIn {
+	from {
+	    transform: scale(0);
+	}
+	
+	to {
+	    transform: scale(1);
+	}
+}
+#contact_page .contact-details{
+	-webkit-animation: bounceInRight 1s forwards;
+	animation: bounceInRight 1s both;
+	animation-delay: 0s;
+	visibility: visible;
+}
+@keyframes bounceInRight {
+	0% {
+	    opacity: 0;
+	    transform: translateX(200px);
+	}
+	
+	20% {
+	    transform: translateX(-20px);
+	}
+	
+	40% {
+	    transform: translateX(10px);
+	}
+	
+	60% {
+	    transform: translateX(-5px);
+	}
+	
+	80% {
+	    transform: translateX(2px);
+	}
+	
+	100% {
+	    opacity: 1;
+	    transform: translateX(0);
+	}
+}
+#contact_page .contact-label{
+    color: #fff;
+    margin-top: 7%;
+}
+#contact_page .contact-label i{
+    color: #fff;
+    font-size: 25px;
+	margin: 1% 8% 0 0;
+    float: left;
+}
+#contact_page .contact-label .loc {
+	margin-left: 0.5rem;
+}
+#contact_page .contact-label span{
+	display: flex;
+    flex-direction: column;
+}
+#contact_page .contact-label a{
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    transition: .9s ease;
+	position: relative;
+    right: 0.5rem;
+}
+#contact_page .contact-label a:hover{
+    color: #000;
+}
+#contact_page .contact-label .num{
+	cursor: pointer;
+	position: relative;
+    right: 0.5rem;
+}
+#contact_page .contact-account{
+    color: #fff;
+    font-size: 15px;
+    margin-top: 10%;
+	-webkit-animation: pulse 1s 1;
+	animation: pulse 1s 1;
+	animation-delay: 0s;
+	visibility: visible;
+}
+@keyframes pulse {
+	0% {
+	    transform: scale(1);
+	}
+	
+	50% {
+	    transform: scale(1.1);
+	}
+	
+	100% {
+	    transform: scale(1);
+	}
+}
+#contact_page .contact-account i{
+    color: #fff;
+    font-size: 25px;
+	padding: 1rem 1.2rem;
+    border-radius: 40px;
+    box-shadow: 0px 6px 10px -4px rgba(0,0,0,0.4);
+}
+#contact_page .contact-account i:hover{
+    color: #f41844;
+    background-color: #fff;
+}
+#contact_page .contact-account #socialMedia {
+	position: relative;
+    bottom: 0.2rem;
+}
+#contact_page .gmap{
+    cursor: url(https://maps.gstatic.com/mapfiles/openhand_8_8.cur), default;
+    touch-action: pan-x pan-y;
+	-webkit-animation: zoomIn 1s forwards;
+	animation: zoomIn 1s forwards;
+    animation-delay: 0s;
+	visibility: visible;
+}
+@keyframes zoomIn {
+	from {
+	    transform: scale(0);
+	}
+	
+	to {
+	    transform: scale(1);
+	}
+}
+#contact_page iframe{
+    width: 97%;
+    height: 300px;
+	margin-left: 5%;
+    border-radius: 0 0 30px 0;
+}

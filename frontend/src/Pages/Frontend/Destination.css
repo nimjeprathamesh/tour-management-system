@@ -1,0 +1,276 @@
+#destHeader{
+    position: relative;
+    overflow: visible;
+    background-image: url('https://www.luzukdemo.com/demo/inside-tours/wp-content/uploads/sites/35/2021/12/d..............jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 22%;
+}
+@media only screen and (min-width: 2560px) {
+	#destHeader{
+		padding-bottom: 11%;
+	}
+}
+@media only screen and (min-width: 1024px) and (max-width: 2559px) {
+	#destHeader{
+		padding-bottom: 20%;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	#destHeader{
+		padding-bottom: 30%;
+	}
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+	#destHeader{
+		padding-bottom: 41%;
+	}
+}
+@media screen and (min-width: 375px) and (max-width: 424px) {
+	#destHeader{
+		padding-bottom: 45%;
+	}
+}
+@media screen and (max-width: 374px) {
+	#destHeader{
+		padding-bottom: 50%;
+	}
+}
+#destHeader .bottom-header{
+	position: absolute;
+	overflow: visible;
+	background: transparent;
+	width: 100%;
+}
+#destHeader .bottom-header h1{
+	color: #000;
+	margin-top: 8.5%;
+	text-align: center;
+	text-shadow: 0em 0em 0.4em rgba(255,255,255,0.6);
+	-webkit-animation: zoomIn 1s forwards;
+	animation: zoomIn 1s forwards;
+    animation-delay: 0s;
+	visibility: visible;
+}
+@media only screen and (min-width: 2560px) {
+	#destHeader .bottom-header h1{
+		margin-top: 4%;
+	}
+}
+@media only screen and (min-width: 1024px) and (max-width: 2559px) {
+	#destHeader .bottom-header h1{
+		margin-top: 7%;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	#destHeader .bottom-header h1{
+		margin-top: 8%;
+	}
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+	#destHeader .bottom-header h1{
+		margin-top: 8%;
+	}
+}
+@media screen and (min-width: 375px) and (max-width: 424px) {
+	#destHeader .bottom-header h1{
+		margin-top: 8%;
+	}
+}
+@media screen and (max-width: 374px) {
+	#destHeader .bottom-header h1{
+		margin-top: 8%;
+	}
+}
+@keyframes zoomIn {
+	from {
+	    transform: scale(0);
+	}
+	
+	to {
+	    transform: scale(1);
+	}
+}
+#inner-page{
+	position:relative;
+	overflow: visible;
+}
+#inner-page .inner-area{
+    margin: 0 2rem;
+    border-radius: 10px;
+	padding: 2rem 0;
+    position: relative;
+    top: -4em;
+}
+@media only screen and (min-width: 2560px) {
+	#inner-page .inner-area{
+        margin: 0 32rem;
+        padding: 3rem 0;
+        gap: 2rem;
+	}
+}
+@media only screen and (min-width: 1440px) and (max-width: 2559px) {
+	#inner-page .inner-area{
+		margin: 0 2rem;
+		gap: 1rem;
+	}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+	#inner-page .inner-area{
+		margin: 0 2rem;
+		gap: 1rem;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	#inner-page .inner-area{
+		margin: 0 2rem;
+		gap: 2rem;
+	}
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+	#inner-page .inner-area{
+		margin: 0 2rem;
+		gap: 3rem;
+	}
+}
+@media screen and (min-width: 375px) and (max-width: 424px) {
+	#inner-page .inner-area{
+		margin: 0 2rem;
+		gap: 3rem;
+	}
+}
+@media screen and (max-width: 374px) {
+	#inner-page .inner-area{
+		margin: 0 2rem;
+		gap: 2rem;
+	}
+}
+#inner-page .destination{
+	width: 18rem;
+    box-shadow: 0.4px 0px 0px 0px #a0a0a0, 0px 0.4px 0px 0px #a0a0a0;
+	overflow: hidden;
+	-webkit-animation: zoomIn 1s forwards;
+	animation: zoomIn 1s forwards;
+    animation-delay: 0s;
+}
+@media only screen and (min-width: 2560px) {
+	#inner-page .destination{
+        width: 21rem;
+	}
+}
+@media only screen and (min-width: 1440px) and (max-width: 2559px) {
+	#inner-page .destination{
+		width: 19.5rem;
+	}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+	#inner-page .destination{
+		width: 18rem;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	#inner-page .destination{
+		width: 18.5rem;
+	}
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+	#inner-page .destination{
+		width: 19rem;
+	}
+}
+@media screen and (min-width: 375px) and (max-width: 424px) {
+	#inner-page .destination{
+		width: 16rem;
+	}
+}
+@media screen and (max-width: 374px) {
+	#inner-page .destination{
+		width: 13rem;
+	}
+}
+@keyframes zoomIn {
+	from {
+	    transform: scale(0);
+	}
+	
+	to {
+	    transform: scale(1);
+	}
+}
+#inner-page .desti-img-overlay{
+    position: relative;
+    width: 100%;
+	overflow: hidden;
+}
+#inner-page .desti-img-overlay img{
+    height: 270px;
+	width: 100%;
+    display: block;
+	transition: all .5s linear;
+}
+#inner-page .destination:hover .desti-img-overlay img {
+    transform: scale(1.1);
+}
+#inner-page .desti-overlay{
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #f41844;
+	overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .9s ease;
+    opacity: 0.4;
+}
+#inner-page .destination:hover .desti-overlay {
+    bottom: 0;
+    height: 100%;
+	transform: scale(1.1);
+}
+#inner-page .destination p{
+    font-size: 14px;
+	color: #a0a0a0;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+			line-clamp: 3;
+	-webkit-box-orient: vertical;
+	margin: 0;
+}
+#inner-page .service-btn{
+    background-color: #f41844;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+#inner-page .service-btn-light:hover{
+    -webkit-animation: halftone 1s forwards;
+            animation: halftone 1s forwards;
+    background: radial-gradient(circle, #000 0.2em, transparent 0.25em) 0 0/1.25em 1.25em,
+    radial-gradient(circle, #000 0.2em, transparent 0.25em) 6.25em 6.25em/1.25em 1.25em;
+}
+#inner-page .service-btn-dark:hover{
+	font-weight: 600;
+	color: #000;
+    -webkit-animation: halftone 1s forwards;
+            animation: halftone 1s forwards;
+    background: radial-gradient(circle, #fff 0.2em, transparent 0.25em) 0 0/1.25em 1.25em,
+    radial-gradient(circle, #fff 0.2em, transparent 0.25em) 6.25em 6.25em/1.25em 1.25em;
+}
+@-webkit-keyframes halftone {
+    100% {
+        background-size: 2.375em 2.375em, 0.1em 0.1em;
+    }
+}
+@keyframes halftone {
+    100% {
+        background-size: 2.375em 2.375em, 0.1em 0.1em;
+    }
+}
+#inner-page .service-btn:active{
+	transform: translateY(4px);
+}

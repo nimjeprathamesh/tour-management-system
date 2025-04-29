@@ -1,0 +1,160 @@
+#homePageBanner{
+	position: relative;
+	overflow: hidden;
+	-webkit-animation: bounceIn 1s both;
+	animation: bounceIn 1s both;
+    animation-delay: 0s;
+	visibility: visible;
+	width: 100%;
+}
+@keyframes bounceIn {
+	0% {
+	    opacity: 0;
+	    transform: scale(0.3);
+	}
+
+	20% {
+	    transform: scale(1.1);
+	}
+
+	40% {
+	    transform: scale(0.9);
+	}
+
+	60% {
+	    opacity: 1;
+	    transform: scale(1.03);
+	}
+
+	80% {
+	    transform: scale(0.97);
+	}
+
+	100% {
+	    opacity: 1;
+	    transform: scale(1);
+	}
+}
+#homePageBanner .container {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+#homePageBanner .ban-area img{
+	width: 100%;
+}
+#homePageBanner .ban-area h1 {
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: black;
+	width: 80%;
+	font-size: 50px;
+	padding: 15%;
+	text-align: center;
+	font-weight: 100;
+}
+@media only screen and (min-width: 2560px) {
+	#homePageBanner .ban-area h1 {
+		width: 80%;
+	}
+}
+@media only screen and (min-width: 1440px) and (max-width: 2559px) {
+	#homePageBanner .ban-area h1 {
+		width: 88%;
+	}
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+	#homePageBanner .ban-area h1 {
+		width: 100%;
+		padding: 9%;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	#homePageBanner .ban-area h1 {
+		width: 100%;
+		padding: 0;
+		font-size: 40px;
+	}
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+	#homePageBanner .ban-area h1 {
+		width: 100%;
+		padding: 0;
+		font-size: 20px;
+		top: 40%;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 424px) {
+	#homePageBanner .ban-area h1 {
+		width: 100%;
+		padding: 0;
+		font-size: 17px;
+		top: 40%;
+	}
+}
+@media only screen and (max-width: 320px) {
+	#homePageBanner .ban-area h1 {
+		width: 100%;
+		padding: 0;
+		font-size: 17px;
+	}
+}
+#homePageBanner .ban-area h1 span {
+	font-weight: 800;
+	font-family: Arial Black;
+}
+#homePageBanner .banner-btn {
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #f41844;
+	display: inline;
+	cursor: pointer;
+	transition: .9s ease;
+	font-weight: 900;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	#homePageBanner .banner-btn {
+		top: 75%;
+	}
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+	#homePageBanner .banner-btn {
+		top: 80%;
+	}
+}
+@media screen and (min-width: 375px) and (max-width: 424px) {
+	#homePageBanner .banner-btn {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		font-size: 10px;
+		top: 78%;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+	#homePageBanner .banner-btn {
+		font-size: 11px;
+		top: 80%;
+	}
+}
+#homePageBanner .banner-btn:hover{
+	font-size:20px;
+}
+#homePageBanner .banner-btn a{
+	text-decoration: none;
+	color: #f41844;
+}
+#homePageBanner .banner-btn a:hover{
+	color: black;
+}
+#homePageBanner .banner-btn span {
+	color: black;
+	font-weight: 600;
+}
+#homePageBanner .banner-btn span:hover{
+	color: #f41844;
+}

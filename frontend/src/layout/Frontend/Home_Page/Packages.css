@@ -1,0 +1,176 @@
+#homePagePackages{
+	position: relative;
+	overflow: hidden;
+	-webkit-animation: bounceInRight 1s both;
+	animation: bounceInRight 1s both;
+    animation-delay: 0s;
+	visibility: visible;
+}
+@keyframes bounceInRight {
+	0% {
+	    opacity: 0;
+	    transform: translateX(200px);
+	}
+
+	20% {
+	    transform: translateX(-20px);
+	}
+
+	40% {
+	    transform: translateX(10px);
+	}
+
+	60% {
+	    transform: translateX(-5px);
+	}
+
+	80% {
+	    transform: translateX(2px);
+	}
+
+	100% {
+	    opacity: 1;
+	    transform: translateX(0);
+	}
+}
+#homePagePackages h1 {
+	margin: 3% 0;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 100;
+}
+@media screen and (min-width: 375px) and (max-width: 767px) {
+	#homePagePackages h1 {
+		font-size: 35px;
+	}
+}
+@media only screen and (max-width: 374px) {
+	#homePagePackages h1 {
+		font-size: 30px;
+	}
+}
+#homePagePackages h1 span{
+	font-weight: 700;
+	display: inline;
+	text-align: center;
+}
+@media screen and (min-width: 425px) and (max-width: 960px) {
+	#homePagePackages .card-container {
+		margin: 0;
+	}
+}
+@media screen and (min-width: 375px) and (max-width: 425px) {
+	#homePagePackages .card-container {
+		margin: 0 1rem;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 375px) {
+	#homePagePackages .card-container {
+		margin: 0 1rem;
+	}
+}
+#homePagePackages .service-2-box {
+	border: 1px solid white;
+	box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.2), 0 0px 18px 0 rgba(0, 0, 0, 0.19);
+	cursor: pointer;
+	border: none;
+	overflow: hidden;
+	width: 100%;
+}
+#homePagePackages .service-2-box img {
+	width: 100%;
+	height: 35vh;
+	display: block;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+#homePagePackages .service-2-image-overlay{
+	position: relative;
+}
+#homePagePackages .service-2-overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #f41844;
+	overflow: hidden;
+	width: 0;
+	height: 100%;
+	transition: .9s ease;
+	opacity: 0.4;
+}
+#homePagePackages .service-2-box:hover .service-2-overlay {
+	width: 100%;
+}
+#homePagePackages .service-2-box:hover .title {
+	color: #f41844;
+}
+#homePagePackages .para{
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+			line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+#homePagePackages .service-2-area a{
+	text-decoration: none;
+}
+#homePagePackages .service-2-area-btn {
+	color: #fff;
+	display: flex;
+	margin: 8% auto;
+	background-color: #f41844;
+	width: auto;
+    padding: 2% 5%;
+	cursor: pointer;
+	text-align: center;
+	font-size: 17px;
+	font-weight: 700;
+	border: none;
+	box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.2), 0 0px 18px 0 rgba(0, 0, 0, 0.19);
+}
+@media only screen and (min-width: 2561px) {
+	#homePagePackages .service-2-area-btn {
+		margin: 4% auto;
+		padding: 1.3% 4%;
+	}
+}
+@media only screen and (min-width: 1440px) and (max-width: 2560px) {
+	#homePagePackages .service-2-area-btn {
+		margin: 4% auto;
+		padding: 1.3% 4%;
+	}
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+	#homePagePackages .service-2-area-btn {
+		margin: 4% auto;
+		padding: 1.3% 4%;
+	}
+}
+#homePagePackages .service-2-area-btn-light:hover {
+	color: #f41844;
+	cursor: pointer;
+	animation: halftone 1s forwards;
+	background: radial-gradient(circle, #000 0.2em, transparent 0.25em) 0 0/1.25em 1.25em, 
+	radial-gradient(circle, #000 0.2em, transparent 0.25em) 6.25em 6.25em/1.25em 1.25em;
+}
+#homePagePackages .service-2-area-btn-dark:hover {
+	color: #f41844;
+	cursor: pointer;
+	animation: halftone 1s forwards;
+	background: radial-gradient(circle, #fff 0.2em, transparent 0.25em) 0 0/1.25em 1.25em, 
+	radial-gradient(circle, #fff 0.2em, transparent 0.25em) 6.25em 6.25em/1.25em 1.25em;
+}
+@-webkit-keyframes halftone {
+	100% {
+		background-size: 2.375em 2.375em, 0.1em 0.1em;
+	}
+}
+@keyframes halftone {
+	100% {
+		background-size: 2.375em 2.375em, 0.1em 0.1em;
+	}
+}
+#homePagePackages .service-2-area-btn:active {
+	transform: translateY(4px);
+}

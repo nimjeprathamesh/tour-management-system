@@ -1,0 +1,110 @@
+#main_content {
+	position: relative;
+    overflow: visible;
+}
+#main_content h1 {
+	text-align: center;
+	text-shadow: 2px 2px 4px #000;
+	-webkit-animation: zoomIn 1s forwards;
+	animation: zoomIn 1s forwards;
+    animation-delay: 0s;
+	visibility: visible;
+}
+@keyframes zoomIn {
+	from {
+	    transform: scale(0);
+	}
+	
+	to {
+	    transform: scale(1);
+	}
+}
+#main_content .button{
+	display: flex;
+    justify-self: flex-end;
+	border-radius: 8px;
+	background-color: #f41844;
+}
+#main_content .button:hover {
+	cursor: pointer;
+	animation: halftone 1s forwards;
+	background: radial-gradient(circle, #0d6efd 0.2em, transparent 0.25em) 0 0/1.25em 1.25em,
+	radial-gradient(circle, #0d6efd 0.2em, transparent 0.25em) 6.25em 6.25em/1.25em 1.25em;
+}
+@-webkit-keyframes halftone {
+	100% {
+		background-size: 2.375em 2.375em, 0.1em 0.1em;
+	}
+}
+@keyframes halftone {
+	100% {
+		background-size: 2.375em 2.375em, 0.1em 0.1em;
+	}
+}
+#main_content .button:active{
+    transform: translateY(4px);
+}
+#main_content .membership-card{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-animation: bounceInRight 1s forwards;
+	animation: bounceInRight 1s both;
+    animation-delay: 0s;
+	visibility: visible;
+}
+@keyframes bounceInRight {
+	0% {
+		opacity: 0;
+		transform: translateX(200px);
+	}
+	
+	20% {
+	    transform: translateX(-20px);
+	}
+	
+	40% {
+	    transform: translateX(10px);
+	}
+	
+	60% {
+	    transform: translateX(-5px);
+	}
+	
+	80% {
+	    transform: translateX(2px);
+	}
+	
+	100% {
+	    opacity: 1;
+	    transform: translateX(0);
+	}
+}
+#main_content .member-image-overlay{
+	position: relative;
+	margin-bottom: 0.5rem;
+}
+#main_content .member-image-overlay img{
+	height: 280px;
+}
+#main_content .member-overlay {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: #f41844;
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	transition: .9s ease;
+	opacity: 0.4;
+}
+#main_content .membership-card:hover .member-overlay {
+	height: 100%;
+}
+#main_content .membership-card:hover .heading{
+	color: #f41844;
+}
+#main_content .addBtn {
+	/* display: flex;
+    justify-content: flex-end; */
+	position: absolute;
+    right: 3rem;
+}

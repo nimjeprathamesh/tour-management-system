@@ -1,0 +1,91 @@
+#homePageSlider .theme-btn-s2{
+    background: transparent;
+	border: 2px solid #fff;
+	border-radius: 30px;
+    color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	padding: 1.8rem 4rem;
+	box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.2), 0 0px 18px 0 rgba(0, 0, 0, 0.19);
+}
+#homePageSlider .theme-btn-s2:hover{
+	border: 2px solid #f41844;
+	color:#fff;
+    -webkit-animation: halftone 1s forwards;
+            animation: halftone 1s forwards;
+	background: radial-gradient(circle, #f41844 0.2em, transparent 0.25em) 0 0/1.25em 1.25em,
+	radial-gradient(circle, #f41844 0.2em, transparent 0.25em) 6.25em 6.25em/1.25em 1.25em;
+}
+@-webkit-keyframes halftone {
+    100% {
+        background-size: 2.375em 2.375em, 0.1em 0.1em;
+    }
+}
+@keyframes halftone {
+    100% {
+        background-size: 2.375em 2.375em, 0.1em 0.1em;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #homePageSlider .slider-image {
+        height: 50vh;
+    }
+	#homePageSlider .slider-text {
+		font-size: 13px;
+	}
+    #homePageSlider .slider-title {
+		font-size: 70px;
+	}
+    #homePageSlider .theme-btn-s2{
+        padding: 1.5rem 3rem;
+        font-size: 1.2rem;
+    }
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    #homePageSlider .slider-image {
+        height: 40vh;
+    }
+	#homePageSlider .slider-text {
+		font-size: 13px;
+        margin: 0 3rem;
+	}
+    #homePageSlider .slider-title {
+		font-size: 3rem;
+	}
+    #homePageSlider .theme-btn-s2{
+        padding: 1.2rem 2rem;
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 424px) {
+    #homePageSlider .slider-image {
+        height: 40vh;
+    }
+	#homePageSlider .slider-text {
+		font-size: 12px;
+        margin: 0 3rem;
+	}
+    #homePageSlider .slider-title {
+		font-size: 2rem;
+	}
+    #homePageSlider .theme-btn-s2{
+        padding: 1rem;
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    #homePageSlider .slider-image {
+        height: 40vh;
+    }
+	#homePageSlider .slider-text {
+		font-size: 12px;
+        margin: 0 1rem;
+	}
+    #homePageSlider .slider-title {
+		font-size: 2rem;
+	}
+    #homePageSlider .theme-btn-s2{
+        padding: 1rem;
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,44 @@
+#footer .lowerfooter{
+	display: flex;
+	justify-content: center;
+	background-color: #1C1C1C;
+}
+#footer .lowerfooter-area{
+	font-size: 15px;
+	-webkit-animation: bounceInUp 1s forwards;
+	animation: bounceInUp 1s both;
+	animation-delay: 0s;
+	visibility: visible;
+}
+@media screen and (max-width: 768px) {
+	#footer .lowerfooter-area {
+		font-size: 12px;
+	}
+}
+@keyframes bounceInUp {
+	0% {
+	    opacity: 0;
+	    transform: translateY(200px);
+	}
+	
+	20% {
+	    transform: translateY(-20px);
+	}
+	
+	40% {
+	    transform: translateY(10px);
+	}
+	
+	60% {
+	    transform: translateY(-5px);
+	}
+	
+	80% {
+	    transform: translateY(2px);
+	}
+	
+	100% {
+	    opacity: 1;
+	    transform: translateY(0);
+	}
+}

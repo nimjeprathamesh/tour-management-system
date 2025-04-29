@@ -1,0 +1,223 @@
+#loginPage{
+    position: relative;
+    overflow: visible;
+    text-align: center;
+    background-image: url('../../../images/signin.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+}
+#loginPage .logo_img{
+    position: absolute;
+    top: 20px;
+    left: 16px;
+    height: auto;
+    width: auto;
+    -webkit-animation: zoomIn 1s forwards;
+    animation: zoomIn 1s forwards;
+    animation-delay: 0s;
+    visibility: visible;
+}
+@keyframes zoomIn {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+#loginPage .loginForm {
+    display: flex;
+    justify-content: center;
+}
+#loginPage form{
+    margin: 56px 0;
+    padding: 2rem 4rem;
+    border-radius:10px;
+    width: 36rem;
+    box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.2), 0 0px 18px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation: zoomIn 1s forwards;
+    animation: zoomIn 1s forwards;
+    animation-delay: 0s;
+    visibility: visible;
+}
+@keyframes zoomIn {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+#loginPage .lock_img{
+    position: relative;
+    height: 100px;
+    width: 120px;
+    margin: -80px 0 0 9.5rem;
+    border-radius: 50%;
+    background-image: linear-gradient(to right top, #494bff 0%, #f752fe 100%);
+    -webkit-animation: zoomIn 1s forwards;
+    animation: zoomIn 1s forwards;
+    animation-delay: 0s;
+    visibility: visible;
+}
+@keyframes zoomIn {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+#loginPage h1{
+    margin: 20px 0 30px 0;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    -webkit-animation: zoomIn 1s forwards;
+    animation: zoomIn 1s forwards;
+    animation-delay: 0s;
+    visibility: visible;
+}
+@keyframes zoomIn {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+#loginPage .label{
+    margin: 0 2rem 1.4rem 2rem;
+    text-align: left;
+    -webkit-animation: bounceInLeft 1s both;
+    animation: bounceInLeft 1s both;
+    animation-delay: 0s;
+}
+@keyframes bounceInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    60% {
+        opacity: 1;
+        transform: translateX(25px);
+    }
+    75% {
+        transform: translateX(-10px);
+    }
+    90% {
+        transform: translateX(5px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+#loginPage .field {
+    padding: 25px 20px;
+    border-radius: 30px;
+    box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.2), 0 0px 18px 0 rgba(0, 0, 0, 0.19);
+    animation: fadeInRightBig 1s both;
+    animation-delay: 0s;
+    visibility: visible;
+}
+@keyframes fadeInRightBig {
+    0% {
+        opacity: 0;
+        transform: translateX(2000px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+#loginPage .email {
+    margin-top: 0;
+}
+#loginPage .togglePassword {
+    cursor: pointer;
+    position: absolute;
+    right: 30rem;
+    top: 24.1rem;
+    z-index: 1;
+}
+#loginPage .loginBtn {
+    background-color:#1ADBE5;
+    color:white;
+    height: 50px;
+    margin: 22px 0 30px 0;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif, FontAwesome;
+    font-weight: 600;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation: bounceIn 1s both;
+    animation: bounceIn 1s both;
+    animation-delay: 0s;
+    visibility: visible;
+}
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.3);
+    }
+    20% {
+        transform: scale(1.1);
+    }
+    40% {
+        transform: scale(0.9);
+    }
+    60% {
+        opacity: 1;
+        transform: scale(1.03);
+    }
+    80% {
+        transform: scale(0.97);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+#loginPage .loginBtnDark:hover {
+    color: #f41844;
+    -webkit-animation: halftone 1s forwards;
+    animation: halftone 1s forwards;
+    background: radial-gradient(circle, #000 0.2em, transparent 0.25em) 0 0/1.25em 1.25em,
+    radial-gradient(circle, #000 0.2em, transparent 0.25em) 6.25em 6.25em/1.25em 1.25em;
+}
+#loginPage .loginBtnLight:hover {
+    color: #f41844;
+    -webkit-animation: halftone 1s forwards;
+    animation: halftone 1s forwards;
+    background: radial-gradient(circle, #fff 0.2em, transparent 0.25em) 0 0/1.25em 1.25em,
+    radial-gradient(circle, #fff 0.2em, transparent 0.25em) 6.25em 6.25em/1.25em 1.25em;
+}
+@-webkit-keyframes halftone {
+    100% {
+        background-size: 2.375em 2.375em, 0.1em 0.1em;
+    }
+}
+@keyframes halftone {
+    100% {
+        background-size: 2.375em 2.375em, 0.1em 0.1em;
+    }
+}
+#loginPage .loginBtn:active{
+    transform: translateY(4px);
+}
+#loginPage .logBtn {
+    padding: 0 3rem;
+}
+#loginPage .toggleTheme {
+    border-radius: 10px;
+    padding: 0;
+    background: #1a202c;
+    position: relative;
+    top: 1rem;
+    left: 38rem;
+    right: 0;
+    width: 3rem;
+}

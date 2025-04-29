@@ -1,0 +1,45 @@
+#packageDetailsPage .inner-box-1 .hr-1{
+	width: 35%;
+	height: 3px;
+	background-color: #ff1944;
+	border: none;
+	opacity: 1;
+	margin: 0;
+}
+#packageDetailsPage .inner-box-1 .hr-2{
+	margin: 0.5% 0 3% 0;
+}
+#packageDetailsPage .inner-box-1 form{
+	border: 1px solid;
+    border-radius: 10px;
+    padding: 1rem;
+	height: 27.1rem;
+}
+#packageDetailsPage .inner-box-1 .lightBorder {
+    border-color: darkslategray;
+}
+#packageDetailsPage .inner-box-1 .darkBorder {
+    border-color: #c1babe;
+}
+#packageDetailsPage .inner-box-1 input[type=text], input[type=email], .package-details{
+    width: 100%;
+}
+#packageDetailsPage .inner-box-1 .submitButton{
+    width: 100%;
+    margin-top: 5%;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #ff1944;
+}
+#packageDetailsPage .inner-box-1 .submitButtonLight:hover{
+	color: #ff1944;
+	background-color: #fff;
+	font-weight: 700;
+}
+#packageDetailsPage .inner-box-1 .submitButtonDark:hover{
+	color: #ff1944;
+	background-color: #000;
+	font-weight: 700;
+}

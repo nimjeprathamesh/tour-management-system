@@ -1,0 +1,39 @@
+#destinationDetailsPage .inner-box-1 form{
+	border: 1px solid;
+    border-radius: 10px;
+    padding: 1rem;
+	height: 25rem;
+}
+#destinationDetailsPage .inner-box-1 .lightBorder {
+    border-color: darkslategray;
+}
+#destinationDetailsPage .inner-box-1 .darkBorder {
+    border-color: #c1babe;
+}
+#destinationDetailsPage .inner-box-1 .h6{
+	font-weight: 700;
+	position: relative;
+    left: -5%;
+}
+#destinationDetailsPage .inner-box-1 input[type=text], input[type=email], .destination-details{
+    width: 100%;
+}
+#destinationDetailsPage .inner-box-1 .submitButton{
+    width: 100%;
+    margin-top: 5%;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #ff1944;
+}
+#destinationDetailsPage .inner-box-1 .submitButtonLight:hover{
+	color: #ff1944;
+	background-color: #fff;
+	font-weight: 700;
+}
+#destinationDetailsPage .inner-box-1 .submitButtonDark:hover{
+	color: #ff1944;
+	background-color: #000;
+	font-weight: 700;
+}
