@@ -15,7 +15,7 @@ export const TourContextProvider = ({ children }) => {
     const { data: testimonials, error: testimonialError, loader: testimonialLoader } = useFetch('/api/testimonials', refreshKey);
     const { data: memberships, error: membershipError, loader: membershipLoader } = useFetch('/api/memberships', refreshKey);
     const { data: contactinfo, error: contactinfoError, loader: contactinfoLoader } = useFetch('/api/contactinfo', refreshKey);
-    const { data: subscription, error: subscriptionError, loader: subscriptionLoader } = useFetch('/subscription', refreshKey);
+    const { data: subscription, error: subscriptionError, loader: subscriptionLoader } = useFetch('/api/subscription', refreshKey);
     const [index, setIndex] = useState(0);
     const [subscribe, setSubscribe] = useState(null);
     const [transitionEnabled, setTransitionEnabled] = useState(true);
