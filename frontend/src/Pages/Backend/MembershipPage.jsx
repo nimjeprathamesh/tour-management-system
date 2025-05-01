@@ -9,11 +9,10 @@ import './MembershipPage.css';
 import { TourContext } from "../../context/context.jsx";
 import useFunction from "../../hooks/useFunction.jsx";
 import Loader from "../../components/Loader.jsx";
-import GetError from "../../components/Error/GetError.jsx";
 
 export default function MembershipPage() {
     const {
-        memberships: data, membershipError: error, membershipLoader: loader
+        memberships: data, membershipLoader: loader
     } = useContext(TourContext);
     const [membershipData, setMembershipData] = useState([]);
     const { handleDeleteMembership } = useFunction();
@@ -44,9 +43,9 @@ export default function MembershipPage() {
                 {loader && (
                     <Loader data={data} loader={loader} />
                 )}
-                {error && (
+                {/* {error && (
                     <GetError error={error} text="testimonial" />
-                )}
+                )} */}
             </Flex>
             <Flex flexWrap="wrap" justifyContent="space-between" margin='0 0.5rem'>
                 {membershipData && membershipData?.map((membership) => (

@@ -8,9 +8,8 @@ import useFunction from '../../../hooks/useFunction.jsx';
 import { useTheme } from '../../../hooks/useTheme.jsx';
 import Modal from '../../../components/Modal.jsx';
 import Loader from '../../../components/Loader.jsx';
-import GetError from '../../../components/Error/GetError.jsx';
 
-export default function Subscription({ subscribe, error, loader }) {
+export default function Subscription({ subscribe, loader }) {
     const { handleDeleteSubscription } = useFunction();
     const { isOpen, onOpen, onClose } = useDisclosure();
     const [subscriptionToDelete, setSubscriptionToDelete] = useState(null);
@@ -72,9 +71,7 @@ export default function Subscription({ subscribe, error, loader }) {
                         </Tbody>
                     </Table>
                 </TableContainer>
-                {error && (
-                    <GetError error={error} text="subscription" />
-                )}
+                
                 {loader && (
                     <Loader data={subscribe} loader={loader} />
                 )}
@@ -91,4 +88,5 @@ Subscription.propTypes = {
         })
     ),
     error: PropTypes.string,
+    loader: PropTypes.bool,
 };
