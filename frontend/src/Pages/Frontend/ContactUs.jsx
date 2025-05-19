@@ -85,7 +85,7 @@ export default function ContactUs() {
                                     <Text as='i'><Icon as={EmailIcon} /></Text>
                                     <Text as='span' ml={2}>
                                         EMAIL US
-                                        <Link href="mailto:clinexmex0011@gmail.com" ml={2}>clinexmex0011@gmail.com</Link>
+                                        <Link href="mailto:nimjeprathamesh1@gmail.com" ml={2}>nimjeprathamesh1@gmail.com</Link>
                                     </Text>
                                 </Flex>
                                 <Flex className="contact-label" alignItems="center" mt={4}>
@@ -93,7 +93,7 @@ export default function ContactUs() {
                                     <Text ml={2}>
                                         CALL US
                                         <Box className="num" ml={2}>
-                                            (+00) 555 666 999 00
+                                            (+91) 985 022 7669
                                         </Box>
                                     </Text>
                                 </Flex>

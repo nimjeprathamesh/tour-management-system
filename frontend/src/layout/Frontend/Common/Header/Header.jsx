@@ -25,12 +25,12 @@ export default function Header() {
                         <Text as='span' ml={2} color='#f41844'>Contact Us!</Text>
                     </Text>
                     <Text mt={2} className='header-mail'>
-                        <Icon as={TfiEmail} color='unset' /> <Link href="mailto:clinexmex0011@gmail.com" className='mailNum'>
-                            clinexmex0011@gmail.com
+                        <Icon as={TfiEmail} color='unset' /> <Link href="mailto:nimjeprathamesh1@gmail.com" className='mailNum'>
+                            nimjeprathamesh1@gmail.com
                         </Link>
                     </Text>
                     <Text className='header-phone' mt={2}>
-                        <Icon as={FiPhone} /> <Text as='span'  className='mailNum'>(+00) 555 666 999 00</Text>
+                        <Icon as={FiPhone} /> <Text as='span'  className='mailNum'>(+91) 985 022 7669</Text>
                     </Text>
                     <Button
                         padding='1.5rem'
