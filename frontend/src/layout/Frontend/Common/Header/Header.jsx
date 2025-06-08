@@ -30,7 +30,7 @@ export default function Header() {
                         </Link>
                     </Text>
                     <Text className='header-phone' mt={2}>
-                        <Icon as={FiPhone} /> <Text as='span'  className='mailNum'>(+91) 985 022 7669</Text>
+                        <Icon as={FiPhone} /> <Text as='span'  className='mailNum'>(+91) 927 051 6127</Text>
                     </Text>
                     <Button
                         padding='1.5rem'
